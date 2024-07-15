@@ -1,20 +1,33 @@
-const number = 42;
-const string = "Hello, world!";
-const boolean = true;
-const object = { key: "value" };
-const array = [1, 2, 3];
-const func = function() { return "I am a function"; };
-const und = undefined;
-const nll = null;
+const age = 42;
+console.log("age:", typeof age);
+const text = "Hello, world!";
+console.log("text:", typeof text);
+const permission = true;
+console.log("permission:", typeof permission);
+const emptyValue = null;
+console.log("emptyValue:", typeof emptyValue); 
+const variable = undefined;
+console.log("variable:", typeof variable);
 const symbol = Symbol("symbol");
-const bigInt = BigInt(9007199254740991);
-console.log("number:", typeof number);
-console.log("string:", typeof string);
-console.log("boolean:", typeof boolean);
-console.log("object:", typeof object);
-console.log("array:", typeof array); 
-console.log("function:", typeof func);
-console.log("undefined:", typeof und);
-console.log("null:", typeof nll); 
 console.log("symbol:", typeof symbol);
-console.log("bigInt:", typeof bigInt);
+const cup = { color: "red" };
+console.log("cup:", typeof cup);
+const array = [1, 2, 3];
+console.log("array:", typeof array); 
+const func = function() { return "I am a function"; };
+console.log("function:", typeof func);
+const theBiggestInt = BigInt(9007199254740991);
+console.log("theBiggestInt:", typeof theBiggestInt);
+
+
+
+
+
+
+
+
+
+
+
+
+
